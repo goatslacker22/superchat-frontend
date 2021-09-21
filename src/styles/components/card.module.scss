@@ -1,0 +1,26 @@
+.root {
+  width: 320px;
+
+  border-radius: 10px;
+  border-top-left-radius: 80rem 6rem;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  i {
+    transform: scale(2.5);
+  }
+  .bottom {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+    margin-left: 0 !important;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    i {
+      transform: scale(1.5);
+    }
+    .button {
+      padding: 2px 4px;
+    }
+  }
+}
