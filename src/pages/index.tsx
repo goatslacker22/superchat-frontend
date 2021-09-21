@@ -1,11 +1,5 @@
-import { useLazyQuery, useMutation } from '@apollo/client';
-import {
-  addDoc,
-  collection,
-  doc,
-  onSnapshot,
-  setDoc,
-} from '@firebase/firestore';
+import { useLazyQuery } from '@apollo/client';
+import { doc, setDoc } from '@firebase/firestore';
 import { useRouter } from 'next/dist/client/router';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
@@ -84,7 +78,7 @@ const HomePage = () => {
   }, [loading, data, color]);
 
   return (
-    <div className={`${s.root} h-full`}>
+    <div className={`${s.root} h-full px-9 sm`}>
       <div
         className={`${s.title} tracking-wide text-7xl text-light-500 font-semibold text-center`}
       >
@@ -140,20 +134,30 @@ const HomePage = () => {
             )}{' '}
           </div>
           <form className='mt-6'>
-            Owner name
-            <input
-              onChange={(e) => handleNameChange(e)}
-              type='text'
-              name='username'
-              id='usernameId'
-            />
-            Repo name
-            <input
-              onChange={(e) => handleRepositoryChange(e)}
-              type='text'
-              name='repository'
-              id='repositoryId'
-            />
+            <div className='owner'>
+              <label className='flex' htmlFor='usernameId'>
+                Owner name
+              </label>
+              <input
+                className='text-gray-500'
+                onChange={(e) => handleNameChange(e)}
+                type='text'
+                name='username'
+                id='usernameId'
+              />
+            </div>
+            <div className='repo'>
+              <label className='flex' htmlFor='repositoryId'>
+                Repo name
+              </label>
+              <input
+                className='text-gray-500'
+                onChange={(e) => handleRepositoryChange(e)}
+                type='text'
+                name='repository'
+                id='repositoryId'
+              />
+            </div>
           </form>
           <button
             className='mt-6 p-3 px-9 bg-light-400 text-gray-500 rounded'
@@ -165,9 +169,12 @@ const HomePage = () => {
           {loading && <div>Loading... </div>}
           {error && <div>Error </div>}
           {link && (
-            <div>
+            <div className='mt-3'>
               <Link href={`/card/${link}`}>
-                <a>Link is generated! Click here {router.pathname}</a>
+                <a className='p-1 px-3 bg-gray-600 text-light-500 rounded'>
+                  Here is your card {router.pathname}
+                  {link}
+                </a>
               </Link>{' '}
             </div>
           )}

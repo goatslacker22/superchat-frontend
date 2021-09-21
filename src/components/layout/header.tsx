@@ -15,15 +15,8 @@ const Header = (/* props: Props */) => {
           <nav className='hidden md:flex space-x-10'>
             <span>
               <Link href={`/`}>
-                <a className='text-base font-medium text-light-500 hover:text-gray-400'>
+                <a className='text-base font-medium text-light-500 hover:text-primary-600'>
                   Home
-                </a>
-              </Link>
-            </span>
-            <span>
-              <Link href={`/cards`}>
-                <a className='text-base font-medium text-light-500 hover:text-gray-900'>
-                  Cards
                 </a>
               </Link>
             </span>
