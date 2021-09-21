@@ -155,7 +155,7 @@ const HomePage = () => {
               </label>
               <input
                 className='text-gray-500'
-                onChange={(e) => handleNameChange(e)}
+                onChange={handleNameChange}
                 type='text'
                 name='username'
                 id='usernameId'
@@ -167,7 +167,7 @@ const HomePage = () => {
               </label>
               <input
                 className='text-gray-500'
-                onChange={(e) => handleRepositoryChange(e)}
+                onChange={handleRepositoryChange}
                 type='text'
                 name='repository'
                 id='repositoryId'
