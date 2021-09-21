@@ -1,11 +1,4 @@
-import {
-  collection,
-  doc,
-  getDoc,
-  onSnapshot,
-  query,
-  where,
-} from '@firebase/firestore';
+import { collection, onSnapshot, query, where } from '@firebase/firestore';
 import { useRouter } from 'next/dist/client/router';
 import React, { useEffect, useState } from 'react';
 
@@ -20,8 +13,6 @@ const CardPage = () => {
 
   useEffect(() => {
     if (router.query.id) {
-      console.log(router.query.id);
-
       const q = query(
         collection(db, 'cards'),
         where('id', '==', router.query.id)
@@ -31,14 +22,9 @@ const CardPage = () => {
         querySnapshot.forEach((doc) => {
           card.push(doc.data());
         });
-        console.log('Current cities in CA: ', card);
         setCard(card[0]);
       });
     }
-
-    /* onSnapshot(collection(db, 'cards'), (snap) => {
-      console.log(snap.docs);
-    }); */
   }, [router.query]);
 
   return (

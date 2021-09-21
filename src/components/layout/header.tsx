@@ -3,9 +3,7 @@ import React from 'react';
 
 import s from '@/styles/components/header.module.scss';
 
-/* interface Props {} */
-
-const Header = (/* props: Props */) => {
+const Header = () => {
   return (
     <div className='relative bg-gray-400 text-light-400'>
       <div className='flex justify-center mx-auto px-4 sm:px-6'>

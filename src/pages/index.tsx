@@ -22,8 +22,8 @@ const HomePage = () => {
   const [repositoryName, setRepositoryName] = useState('');
   const [color, setColor] = useState('#ff5959');
   const [icon, setIcon] = useState('');
-  const [colorClick, toggleColorClick] = useState(false);
-  const [iconClick, toggleIconClick] = useState(false);
+  const [colorClicked, toggleColorClick] = useState(false);
+  const [iconClicked, toggleIconClick] = useState(false);
 
   const [link, setLink] = useState('');
 
@@ -48,12 +48,12 @@ const HomePage = () => {
     getData({ variables: { name: repositoryName, owner } });
   };
 
-  const handleToggleColorClick = () => toggleColorClick(!colorClick);
-  const handleToggleIconClick = () => toggleIconClick(!iconClick);
+  const handleToggleColorClick = () => toggleColorClick(!colorClicked);
+  const handleToggleIconClick = () => toggleIconClick(!iconClicked);
 
   const handleIconClick = (icon: string) => {
     setIcon(icon);
-    toggleIconClick(!iconClick);
+    toggleIconClick(!iconClicked);
   };
 
   useEffect(() => {
@@ -86,21 +86,28 @@ const HomePage = () => {
       </div>
       <div className='mt-12'>
         <div>
-          <button
-            className='mt-6 p-3 px-9 bg-light-400 text-gray-500 rounded'
-            onClick={handleToggleColorClick}
-          >
-            {colorClick ? 'Apply' : 'Select colors'}
-          </button>
-          {colorClick && (
-            <ColorPicker
-              combinations='tetrad'
-              color={color}
-              onChange={(color) => setColor(color.hex)}
-            />
-          )}
+          <div className='flex items-center'>
+            <button
+              className='mt-6 p-3 px-9 bg-light-400 text-gray-500 rounded'
+              onClick={handleToggleColorClick}
+            >
+              {colorClicked ? 'Apply' : <span>Select colors</span>}
+            </button>
+            <div
+              onClick={handleToggleColorClick}
+              className='ml-3 mt-6 w-6 h-6'
+              style={{ background: color }}
+            ></div>
+            {colorClicked && (
+              <ColorPicker
+                combinations='tetrad'
+                color={color}
+                onChange={(color) => setColor(color.hex)}
+              />
+            )}
+          </div>
           <div onClick={handleToggleIconClick}>
-            {iconClick ? (
+            {iconClicked ? (
               <div className='flex mt-12'>
                 <span
                   onClick={() => handleIconClick('fa-star')}
@@ -128,11 +135,19 @@ const HomePage = () => {
                 </span>
               </div>
             ) : (
-              <button className='mt-6 p-3 px-9 bg-light-400 text-gray-500 rounded'>
-                Select Icon
-              </button>
+              <div>
+                <button className='mt-6 p-3 px-9 bg-light-400 text-gray-500 rounded'>
+                  Select Icon
+                </button>
+                {icon && (
+                  <span className='mt-3 ml-6'>
+                    <i className={`fa ${icon}`}></i>
+                  </span>
+                )}
+              </div>
             )}{' '}
           </div>
+
           <form className='mt-6'>
             <div className='owner'>
               <label className='flex' htmlFor='usernameId'>

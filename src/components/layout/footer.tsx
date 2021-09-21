@@ -1,9 +1,7 @@
 import React from 'react';
 
-/* interface Props {} */
-
-const Footer = (/* props: Props */) => {
-  return <footer className='h-8 text-center'>Footer</footer>;
+const Footer = () => {
+  return <footer className='h-8 text-center'></footer>;
 };
 
 export default Footer;
