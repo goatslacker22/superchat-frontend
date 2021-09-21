@@ -1,10 +1,29 @@
+import { useLazyQuery, useMutation } from '@apollo/client';
+import {
+  addDoc,
+  collection,
+  doc,
+  onSnapshot,
+  setDoc,
+} from '@firebase/firestore';
+import { useRouter } from 'next/dist/client/router';
 import Link from 'next/link';
 import React, { useEffect, useState } from 'react';
 import ColorPicker from 'react-pick-color';
+import { v4 as uuidv4 } from 'uuid';
 
 import s from '@/styles/pages/home.module.scss';
 
+import { GET_REPO_DATA } from '@/graphQueries/repository';
+import {
+  GetRepoData,
+  GetRepoDataVariables,
+} from '@/graphQueries/repository/__generated__/GetRepoData';
+
+import db from '../firebase';
+
 const HomePage = () => {
+  const router = useRouter();
   const [owner, setOwner] = useState('');
   const [repositoryName, setRepositoryName] = useState('');
   const [color, setColor] = useState('#ff5959');
@@ -13,6 +32,13 @@ const HomePage = () => {
   const [iconClick, toggleIconClick] = useState(false);
 
   const [link, setLink] = useState('');
+
+  const [getData, { loading, data, error }] = useLazyQuery<
+    GetRepoData,
+    GetRepoDataVariables
+  >(GET_REPO_DATA, {
+    fetchPolicy: 'no-cache',
+  });
 
   const handleNameChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setOwner(e.target.value);
@@ -24,6 +50,8 @@ const HomePage = () => {
 
   const handleSubmit = async (e: React.MouseEvent) => {
     e.preventDefault();
+
+    getData({ variables: { name: repositoryName, owner } });
   };
 
   const handleToggleColorClick = () => toggleColorClick(!colorClick);
@@ -33,6 +61,27 @@ const HomePage = () => {
     setIcon(icon);
     toggleIconClick(!iconClick);
   };
+
+  useEffect(() => {
+    if (!loading && data) {
+      const id = uuidv4().slice(0, 5);
+      const copy = {
+        ...data?.repository,
+        color,
+        repositoryId: data.repository?.id,
+        icon,
+        id,
+      };
+
+      setDoc(doc(db, 'cards', id), copy)
+        .then((data) => {
+          setLink(id);
+        })
+        .catch((error) => {
+          console.error('Error writing document: ', error);
+        });
+    }
+  }, [loading, data, color]);
 
   return (
     <div className={`${s.root} h-full`}>
@@ -113,10 +162,12 @@ const HomePage = () => {
             Load
           </button>
 
+          {loading && <div>Loading... </div>}
+          {error && <div>Error </div>}
           {link && (
             <div>
               <Link href={`/card/${link}`}>
-                <a>Link is generated! Click here </a>
+                <a>Link is generated! Click here {router.pathname}</a>
               </Link>{' '}
             </div>
           )}
