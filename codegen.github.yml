@@ -1,0 +1,7 @@
+schema: graphql-schema.json
+documents: ./graphql/**/*.{ts,tsx}
+overwrite: true
+generates:
+  ./components/apollo-components.tsx:
+    config:
+      noNamespaces: true

@@ -1,0 +1,1086 @@
+{
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "test": [
+    {
+      "__typename": "Repository",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "name": "react",
+      "owner": {
+        "__typename": "Organization",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+        "login": "facebook"
+      },
+      "stargazerCount": 174934,
+      "stargazers": {
+        "__typename": "StargazerConnection",
+        "nodes": [
+          {
+            "__typename": "User",
+            "login": "goatslacker"
+          },
+          {
+            "__typename": "User",
+            "login": "iamxande"
+          },
+          {
+            "__typename": "User",
+            "login": "benkeen"
+          },
+          {
+            "__typename": "User",
+            "login": "Tgemayel"
+          },
+          {
+            "__typename": "User",
+            "login": "imgntn"
+          },
+          {
+            "__typename": "User",
+            "login": "danthamotheram"
+          },
+          {
+            "__typename": "User",
+            "login": "ahmetb"
+          },
+          {
+            "__typename": "User",
+            "login": "aifreedom"
+          },
+          {
+            "__typename": "User",
+            "login": "marktheunissen"
+          },
+          {
+            "__typename": "User",
+            "login": "folletto"
+          }
+        ]
+      },
+      "viewerHasStarred": false,
+      "color": "#e700ff",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+      "icon": "fa-apple",
+      "id": 1
+    },
+    {
+      "__typename": "Repository",
+      "description": "Config files for my GitHub profile.",
+      "name": "goatslacker22",
+      "owner": {
+        "__typename": "User",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91050246?v=4",
+        "id": "MDQ6VXNlcjkxMDUwMjQ2",
+        "login": "goatslacker22"
+      },
+      "stargazerCount": 1,
+      "stargazers": {
+        "__typename": "StargazerConnection",
+        "nodes": [
+          {
+            "__typename": "User",
+            "login": "goatslacker22"
+          }
+        ]
+      },
+      "viewerHasStarred": true,
+      "color": "#00c9ff",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnk0MDgzNDI4MDg=",
+      "icon": "fa-anchor",
+      "id": 2
+    },
+    {
+      "__typename": "Repository",
+      "createdAt": "2013-05-24T16:15:54Z",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "forkCount": 35305,
+      "name": "react",
+      "owner": {
+        "__typename": "Organization",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+        "login": "facebook"
+      },
+      "stargazerCount": 174936,
+      "stargazers": {
+        "__typename": "StargazerConnection",
+        "nodes": [
+          {
+            "__typename": "User",
+            "login": "goatslacker"
+          },
+          {
+            "__typename": "User",
+            "login": "iamxande"
+          },
+          {
+            "__typename": "User",
+            "login": "benkeen"
+          },
+          {
+            "__typename": "User",
+            "login": "Tgemayel"
+          },
+          {
+            "__typename": "User",
+            "login": "imgntn"
+          },
+          {
+            "__typename": "User",
+            "login": "danthamotheram"
+          },
+          {
+            "__typename": "User",
+            "login": "ahmetb"
+          },
+          {
+            "__typename": "User",
+            "login": "aifreedom"
+          },
+          {
+            "__typename": "User",
+            "login": "marktheunissen"
+          },
+          {
+            "__typename": "User",
+            "login": "folletto"
+          }
+        ]
+      },
+      "viewerHasStarred": false,
+      "watchers": {
+        "__typename": "UserConnection",
+        "totalCount": 6684
+      },
+      "color": "#e100ff",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+      "icon": "fa-anchor",
+      "id": 3
+    },
+    {
+      "__typename": "Repository",
+      "createdAt": "2013-05-24T16:15:54Z",
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "forkCount": 35305,
+      "name": "react",
+      "owner": {
+        "__typename": "Organization",
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+        "login": "facebook"
+      },
+      "stargazerCount": 174936,
+      "stargazers": {
+        "__typename": "StargazerConnection",
+        "nodes": [
+          {
+            "__typename": "User",
+            "login": "goatslacker"
+          },
+          {
+            "__typename": "User",
+            "login": "iamxande"
+          },
+          {
+            "__typename": "User",
+            "login": "benkeen"
+          },
+          {
+            "__typename": "User",
+            "login": "Tgemayel"
+          },
+          {
+            "__typename": "User",
+            "login": "imgntn"
+          },
+          {
+            "__typename": "User",
+            "login": "danthamotheram"
+          },
+          {
+            "__typename": "User",
+            "login": "ahmetb"
+          },
+          {
+            "__typename": "User",
+            "login": "aifreedom"
+          },
+          {
+            "__typename": "User",
+            "login": "marktheunissen"
+          },
+          {
+            "__typename": "User",
+            "login": "folletto"
+          }
+        ]
+      },
+      "viewerHasStarred": false,
+      "watchers": {
+        "__typename": "UserConnection",
+        "totalCount": 6684
+      },
+      "color": "#95ff00",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+      "icon": "fa-apple",
+      "id": 4
+    },
+    {
+      "owner": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+        "login": "facebook",
+        "__typename": "Organization"
+      },
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "name": "react",
+      "viewerHasStarred": false,
+      "stargazerCount": 174936,
+      "stargazers": {
+        "nodes": [
+          {
+            "login": "goatslacker",
+            "__typename": "User"
+          },
+          {
+            "login": "iamxande",
+            "__typename": "User"
+          },
+          {
+            "login": "benkeen",
+            "__typename": "User"
+          },
+          {
+            "login": "Tgemayel",
+            "__typename": "User"
+          },
+          {
+            "login": "imgntn",
+            "__typename": "User"
+          },
+          {
+            "login": "danthamotheram",
+            "__typename": "User"
+          },
+          {
+            "login": "ahmetb",
+            "__typename": "User"
+          },
+          {
+            "login": "aifreedom",
+            "__typename": "User"
+          },
+          {
+            "login": "marktheunissen",
+            "__typename": "User"
+          },
+          {
+            "login": "folletto",
+            "__typename": "User"
+          }
+        ],
+        "__typename": "StargazerConnection"
+      },
+      "watchers": {
+        "totalCount": 6684,
+        "__typename": "UserConnection"
+      },
+      "forkCount": 35305,
+      "createdAt": "2013-05-24T16:15:54Z",
+      "__typename": "Repository",
+      "color": "#f400ff",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+      "icon": "fa-apple",
+      "id": 5
+    },
+    {
+      "owner": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+        "login": "facebook",
+        "__typename": "Organization"
+      },
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "name": "react",
+      "viewerHasStarred": false,
+      "stargazerCount": 174941,
+      "stargazers": {
+        "nodes": [
+          {
+            "login": "goatslacker",
+            "__typename": "User"
+          },
+          {
+            "login": "iamxande",
+            "__typename": "User"
+          },
+          {
+            "login": "benkeen",
+            "__typename": "User"
+          },
+          {
+            "login": "Tgemayel",
+            "__typename": "User"
+          },
+          {
+            "login": "imgntn",
+            "__typename": "User"
+          },
+          {
+            "login": "danthamotheram",
+            "__typename": "User"
+          },
+          {
+            "login": "ahmetb",
+            "__typename": "User"
+          },
+          {
+            "login": "aifreedom",
+            "__typename": "User"
+          },
+          {
+            "login": "marktheunissen",
+            "__typename": "User"
+          },
+          {
+            "login": "folletto",
+            "__typename": "User"
+          }
+        ],
+        "__typename": "StargazerConnection"
+      },
+      "watchers": {
+        "totalCount": 6684,
+        "__typename": "UserConnection"
+      },
+      "forkCount": 35305,
+      "createdAt": "2013-05-24T16:15:54Z",
+      "__typename": "Repository",
+      "color": "#7f00ff",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+      "icon": "fa-apple",
+      "id": 6
+    },
+    {
+      "owner": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+        "login": "facebook",
+        "__typename": "Organization"
+      },
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "name": "react",
+      "viewerHasStarred": false,
+      "stargazerCount": 174941,
+      "stargazers": {
+        "nodes": [
+          {
+            "login": "goatslacker",
+            "__typename": "User"
+          },
+          {
+            "login": "iamxande",
+            "__typename": "User"
+          },
+          {
+            "login": "benkeen",
+            "__typename": "User"
+          },
+          {
+            "login": "Tgemayel",
+            "__typename": "User"
+          },
+          {
+            "login": "imgntn",
+            "__typename": "User"
+          },
+          {
+            "login": "danthamotheram",
+            "__typename": "User"
+          },
+          {
+            "login": "ahmetb",
+            "__typename": "User"
+          },
+          {
+            "login": "aifreedom",
+            "__typename": "User"
+          },
+          {
+            "login": "marktheunissen",
+            "__typename": "User"
+          },
+          {
+            "login": "folletto",
+            "__typename": "User"
+          }
+        ],
+        "__typename": "StargazerConnection"
+      },
+      "watchers": {
+        "totalCount": 6684,
+        "__typename": "UserConnection"
+      },
+      "forkCount": 35305,
+      "createdAt": "2013-05-24T16:15:54Z",
+      "__typename": "Repository",
+      "color": "#00ffff",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+      "icon": "fa-anchor",
+      "id": 7
+    },
+    {
+      "owner": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+        "login": "facebook",
+        "__typename": "Organization"
+      },
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "name": "react",
+      "viewerHasStarred": false,
+      "stargazerCount": 174942,
+      "stargazers": {
+        "nodes": [
+          {
+            "login": "goatslacker",
+            "__typename": "User"
+          },
+          {
+            "login": "iamxande",
+            "__typename": "User"
+          },
+          {
+            "login": "benkeen",
+            "__typename": "User"
+          },
+          {
+            "login": "Tgemayel",
+            "__typename": "User"
+          },
+          {
+            "login": "imgntn",
+            "__typename": "User"
+          },
+          {
+            "login": "danthamotheram",
+            "__typename": "User"
+          },
+          {
+            "login": "ahmetb",
+            "__typename": "User"
+          },
+          {
+            "login": "aifreedom",
+            "__typename": "User"
+          },
+          {
+            "login": "marktheunissen",
+            "__typename": "User"
+          },
+          {
+            "login": "folletto",
+            "__typename": "User"
+          }
+        ],
+        "__typename": "StargazerConnection"
+      },
+      "watchers": {
+        "totalCount": 6684,
+        "__typename": "UserConnection"
+      },
+      "forkCount": 35305,
+      "createdAt": "2013-05-24T16:15:54Z",
+      "__typename": "Repository",
+      "color": "#80ff00",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+      "icon": "fa-apple",
+      "id": 8
+    },
+    {
+      "owner": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+        "login": "facebook",
+        "__typename": "Organization"
+      },
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "name": "react",
+      "viewerHasStarred": false,
+      "stargazerCount": 174942,
+      "stargazers": {
+        "nodes": [
+          {
+            "login": "goatslacker",
+            "__typename": "User"
+          },
+          {
+            "login": "iamxande",
+            "__typename": "User"
+          },
+          {
+            "login": "benkeen",
+            "__typename": "User"
+          },
+          {
+            "login": "Tgemayel",
+            "__typename": "User"
+          },
+          {
+            "login": "imgntn",
+            "__typename": "User"
+          },
+          {
+            "login": "danthamotheram",
+            "__typename": "User"
+          },
+          {
+            "login": "ahmetb",
+            "__typename": "User"
+          },
+          {
+            "login": "aifreedom",
+            "__typename": "User"
+          },
+          {
+            "login": "marktheunissen",
+            "__typename": "User"
+          },
+          {
+            "login": "folletto",
+            "__typename": "User"
+          }
+        ],
+        "__typename": "StargazerConnection"
+      },
+      "watchers": {
+        "totalCount": 6684,
+        "__typename": "UserConnection"
+      },
+      "forkCount": 35305,
+      "createdAt": "2013-05-24T16:15:54Z",
+      "__typename": "Repository",
+      "color": "#52cece",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+      "icon": "fa-star",
+      "id": 9
+    },
+    {
+      "owner": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+        "login": "facebook",
+        "__typename": "Organization"
+      },
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "name": "react",
+      "viewerHasStarred": false,
+      "stargazerCount": 174944,
+      "stargazers": {
+        "nodes": [
+          {
+            "login": "goatslacker",
+            "__typename": "User"
+          },
+          {
+            "login": "iamxande",
+            "__typename": "User"
+          },
+          {
+            "login": "benkeen",
+            "__typename": "User"
+          },
+          {
+            "login": "Tgemayel",
+            "__typename": "User"
+          },
+          {
+            "login": "imgntn",
+            "__typename": "User"
+          },
+          {
+            "login": "danthamotheram",
+            "__typename": "User"
+          },
+          {
+            "login": "ahmetb",
+            "__typename": "User"
+          },
+          {
+            "login": "aifreedom",
+            "__typename": "User"
+          },
+          {
+            "login": "marktheunissen",
+            "__typename": "User"
+          },
+          {
+            "login": "folletto",
+            "__typename": "User"
+          }
+        ],
+        "__typename": "StargazerConnection"
+      },
+      "watchers": {
+        "totalCount": 6684,
+        "__typename": "UserConnection"
+      },
+      "forkCount": 35307,
+      "createdAt": "2013-05-24T16:15:54Z",
+      "__typename": "Repository",
+      "color": "#80ff00",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+      "icon": "fa-adn",
+      "id": 10
+    },
+    {
+      "owner": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+        "login": "facebook",
+        "__typename": "Organization"
+      },
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "name": "react",
+      "viewerHasStarred": false,
+      "stargazerCount": 174945,
+      "stargazers": {
+        "nodes": [
+          {
+            "login": "goatslacker",
+            "__typename": "User"
+          },
+          {
+            "login": "iamxande",
+            "__typename": "User"
+          },
+          {
+            "login": "benkeen",
+            "__typename": "User"
+          },
+          {
+            "login": "Tgemayel",
+            "__typename": "User"
+          },
+          {
+            "login": "imgntn",
+            "__typename": "User"
+          },
+          {
+            "login": "danthamotheram",
+            "__typename": "User"
+          },
+          {
+            "login": "ahmetb",
+            "__typename": "User"
+          },
+          {
+            "login": "aifreedom",
+            "__typename": "User"
+          },
+          {
+            "login": "marktheunissen",
+            "__typename": "User"
+          },
+          {
+            "login": "folletto",
+            "__typename": "User"
+          }
+        ],
+        "__typename": "StargazerConnection"
+      },
+      "watchers": {
+        "totalCount": 6684,
+        "__typename": "UserConnection"
+      },
+      "forkCount": 35307,
+      "createdAt": "2013-05-24T16:15:54Z",
+      "__typename": "Repository",
+      "color": "#aa5555",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+      "icon": "fa-apple",
+      "id": 11
+    },
+    {
+      "owner": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+        "login": "facebook",
+        "__typename": "Organization"
+      },
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "name": "react",
+      "viewerHasStarred": false,
+      "stargazerCount": 174945,
+      "stargazers": {
+        "nodes": [
+          {
+            "login": "goatslacker",
+            "__typename": "User"
+          },
+          {
+            "login": "iamxande",
+            "__typename": "User"
+          },
+          {
+            "login": "benkeen",
+            "__typename": "User"
+          },
+          {
+            "login": "Tgemayel",
+            "__typename": "User"
+          },
+          {
+            "login": "imgntn",
+            "__typename": "User"
+          },
+          {
+            "login": "danthamotheram",
+            "__typename": "User"
+          },
+          {
+            "login": "ahmetb",
+            "__typename": "User"
+          },
+          {
+            "login": "aifreedom",
+            "__typename": "User"
+          },
+          {
+            "login": "marktheunissen",
+            "__typename": "User"
+          },
+          {
+            "login": "folletto",
+            "__typename": "User"
+          }
+        ],
+        "__typename": "StargazerConnection"
+      },
+      "watchers": {
+        "totalCount": 6684,
+        "__typename": "UserConnection"
+      },
+      "forkCount": 35307,
+      "createdAt": "2013-05-24T16:15:54Z",
+      "__typename": "Repository",
+      "color": "#f50d0d",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+      "icon": "fa-apple",
+      "id": 12
+    },
+    {
+      "owner": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+        "login": "facebook",
+        "__typename": "Organization"
+      },
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "name": "react",
+      "viewerHasStarred": false,
+      "stargazerCount": 174945,
+      "stargazers": {
+        "nodes": [
+          {
+            "login": "goatslacker",
+            "__typename": "User"
+          },
+          {
+            "login": "iamxande",
+            "__typename": "User"
+          },
+          {
+            "login": "benkeen",
+            "__typename": "User"
+          },
+          {
+            "login": "Tgemayel",
+            "__typename": "User"
+          },
+          {
+            "login": "imgntn",
+            "__typename": "User"
+          },
+          {
+            "login": "danthamotheram",
+            "__typename": "User"
+          },
+          {
+            "login": "ahmetb",
+            "__typename": "User"
+          },
+          {
+            "login": "aifreedom",
+            "__typename": "User"
+          },
+          {
+            "login": "marktheunissen",
+            "__typename": "User"
+          },
+          {
+            "login": "folletto",
+            "__typename": "User"
+          }
+        ],
+        "__typename": "StargazerConnection"
+      },
+      "watchers": {
+        "totalCount": 6684,
+        "__typename": "UserConnection"
+      },
+      "forkCount": 35307,
+      "createdAt": "2013-05-24T16:15:54Z",
+      "__typename": "Repository",
+      "color": "#f50d0d",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+      "icon": "fa-apple",
+      "id": 13
+    },
+    {
+      "owner": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+        "login": "facebook",
+        "__typename": "Organization"
+      },
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "name": "react",
+      "viewerHasStarred": false,
+      "stargazerCount": 174945,
+      "stargazers": {
+        "nodes": [
+          {
+            "login": "goatslacker",
+            "__typename": "User"
+          },
+          {
+            "login": "iamxande",
+            "__typename": "User"
+          },
+          {
+            "login": "benkeen",
+            "__typename": "User"
+          },
+          {
+            "login": "Tgemayel",
+            "__typename": "User"
+          },
+          {
+            "login": "imgntn",
+            "__typename": "User"
+          },
+          {
+            "login": "danthamotheram",
+            "__typename": "User"
+          },
+          {
+            "login": "ahmetb",
+            "__typename": "User"
+          },
+          {
+            "login": "aifreedom",
+            "__typename": "User"
+          },
+          {
+            "login": "marktheunissen",
+            "__typename": "User"
+          },
+          {
+            "login": "folletto",
+            "__typename": "User"
+          }
+        ],
+        "__typename": "StargazerConnection"
+      },
+      "watchers": {
+        "totalCount": 6684,
+        "__typename": "UserConnection"
+      },
+      "forkCount": 35307,
+      "createdAt": "2013-05-24T16:15:54Z",
+      "__typename": "Repository",
+      "color": "#f50d0d",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+      "icon": "fa-apple",
+      "id": 14
+    },
+    {
+      "owner": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+        "login": "facebook",
+        "__typename": "Organization"
+      },
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "name": "react",
+      "viewerHasStarred": false,
+      "stargazerCount": 174945,
+      "stargazers": {
+        "nodes": [
+          {
+            "login": "goatslacker",
+            "__typename": "User"
+          },
+          {
+            "login": "iamxande",
+            "__typename": "User"
+          },
+          {
+            "login": "benkeen",
+            "__typename": "User"
+          },
+          {
+            "login": "Tgemayel",
+            "__typename": "User"
+          },
+          {
+            "login": "imgntn",
+            "__typename": "User"
+          },
+          {
+            "login": "danthamotheram",
+            "__typename": "User"
+          },
+          {
+            "login": "ahmetb",
+            "__typename": "User"
+          },
+          {
+            "login": "aifreedom",
+            "__typename": "User"
+          },
+          {
+            "login": "marktheunissen",
+            "__typename": "User"
+          },
+          {
+            "login": "folletto",
+            "__typename": "User"
+          }
+        ],
+        "__typename": "StargazerConnection"
+      },
+      "watchers": {
+        "totalCount": 6684,
+        "__typename": "UserConnection"
+      },
+      "forkCount": 35307,
+      "createdAt": "2013-05-24T16:15:54Z",
+      "__typename": "Repository",
+      "color": "#ff0000",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+      "icon": "fa-star",
+      "id": 15
+    },
+    {
+      "owner": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69631?v=4",
+        "id": "MDEyOk9yZ2FuaXphdGlvbjY5NjMx",
+        "login": "facebook",
+        "__typename": "Organization"
+      },
+      "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "name": "react",
+      "viewerHasStarred": false,
+      "stargazerCount": 174945,
+      "stargazers": {
+        "nodes": [
+          {
+            "login": "goatslacker",
+            "__typename": "User"
+          },
+          {
+            "login": "iamxande",
+            "__typename": "User"
+          },
+          {
+            "login": "benkeen",
+            "__typename": "User"
+          },
+          {
+            "login": "Tgemayel",
+            "__typename": "User"
+          },
+          {
+            "login": "imgntn",
+            "__typename": "User"
+          },
+          {
+            "login": "danthamotheram",
+            "__typename": "User"
+          },
+          {
+            "login": "ahmetb",
+            "__typename": "User"
+          },
+          {
+            "login": "aifreedom",
+            "__typename": "User"
+          },
+          {
+            "login": "marktheunissen",
+            "__typename": "User"
+          },
+          {
+            "login": "folletto",
+            "__typename": "User"
+          }
+        ],
+        "__typename": "StargazerConnection"
+      },
+      "watchers": {
+        "totalCount": 6684,
+        "__typename": "UserConnection"
+      },
+      "forkCount": 35307,
+      "createdAt": "2013-05-24T16:15:54Z",
+      "__typename": "Repository",
+      "color": "#bb6565",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnkxMDI3MDI1MA==",
+      "icon": "fa-adn",
+      "id": 16
+    },
+    {
+      "owner": {
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91050246?v=4",
+        "id": "MDQ6VXNlcjkxMDUwMjQ2",
+        "login": "goatslacker22",
+        "__typename": "User"
+      },
+      "description": "Config files for my GitHub profile.",
+      "name": "goatslacker22",
+      "viewerHasStarred": true,
+      "stargazerCount": 1,
+      "stargazers": {
+        "nodes": [
+          {
+            "login": "goatslacker22",
+            "__typename": "User"
+          }
+        ],
+        "__typename": "StargazerConnection"
+      },
+      "watchers": {
+        "totalCount": 1,
+        "__typename": "UserConnection"
+      },
+      "forkCount": 0,
+      "createdAt": "2021-09-20T07:07:04Z",
+      "__typename": "Repository",
+      "color": "#ff5959",
+      "repositoryId": "MDEwOlJlcG9zaXRvcnk0MDgzNDI4MDg=",
+      "icon": "",
+      "id": 17
+    }
+  ]
+}
