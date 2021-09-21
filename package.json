@@ -5,13 +5,18 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT",
     "lint": "next lint",
     "lint:fix": "eslint src --fix && yarn format",
     "format": "prettier --write src",
     "release": "standard-version",
     "push-release": "git push --follow-tags origin main",
-    
+    "codegen:schema": "npx apollo service:download --endpoint=https://api.github.com/graphql graphql-schema.json --header \"Authorization: Bearer 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 \"",
+    "codegen:generate": "npx apollo codegen:generate --localSchemaFile=graphql-schema.json --globalTypesFile=./src/lib/globalTypes.ts --target=typescript --tagName=gql",
+    "json-server": "npx json-server --watch db.json --port 8000",
+    "server": "concurrently -k \"npm run json-server\" \"npm start\"",
+    "de": "start npm run dev && start npm run json-server",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "@apollo/client": "^3.4.12",
